@@ -21,6 +21,9 @@ package com.wirelessalien.android.moviedb
 
 import android.app.Application
 import android.content.Context
+import android.content.res.Configuration
+import android.os.Build
+import androidx.preference.PreferenceManager
 import com.google.android.material.color.DynamicColors
 import com.wirelessalien.android.moviedb.helper.ConfigHelper
 import kotlinx.coroutines.CoroutineScope
@@ -32,12 +35,37 @@ import okhttp3.Request
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
+import java.util.Locale
 
 class App : Application() {
     override fun onCreate() {
         super.onCreate()
+        setAppLanguage()
         DynamicColors.applyToActivitiesIfAvailable(this)
         fetchAndStoreGenres()
+    }
+    
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        setAppLanguage()
+    }
+    
+    private fun setAppLanguage() {
+        val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
+        val languageCode = sharedPreferences.getString("key_language", "en") ?: "en"
+        
+        val locale = Locale(languageCode)
+        Locale.setDefault(locale)
+        
+        val config = Configuration(resources.configuration)
+        config.setLocale(locale)
+        
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            config.setLayoutDirection(locale)
+        }
+        
+        val context = createConfigurationContext(config)
+        resources.updateConfiguration(config, resources.displayMetrics)
     }
 
     private fun fetchAndStoreGenres() {

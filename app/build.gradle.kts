@@ -131,13 +131,14 @@ dependencies {
     implementation("io.noties.markwon:html:4.6.2")
 
     //for Google Sign In
-    "fullImplementation"("com.google.android.gms:play-services-auth:21.2.0")
+    implementation("com.google.android.gms:play-services-auth:21.2.0")
+    implementation("androidx.credentials:credentials:1.3.0")
+    implementation("androidx.credentials:credentials-play-services-auth:1.3.0")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0")
+    
     "fullImplementation"("com.google.apis:google-api-services-drive:v3-rev197-1.25.0")
     "fullImplementation"("com.google.http-client:google-http-client-gson:1.40.0")
-    "fullImplementation"("androidx.credentials:credentials:1.3.0")
-    "fullImplementation"("androidx.credentials:credentials-play-services-auth:1.3.0")
-    "fullImplementation"("com.google.android.libraries.identity.googleid:googleid:1.1.1")
-    "fullImplementation"("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.9.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")

@@ -152,10 +152,15 @@ open class BaseActivity : AppCompatActivity() {
             val preferences = PreferenceManager.getDefaultSharedPreferences(
                 context!!
             )
+            // Check both key_language (app language) and key_api_language (API language)
+            val appLanguage = preferences.getString("key_language", null)
             val userPickedLanguage = preferences.getString(API_LANGUAGE_PREFERENCE, null)
-            return if (!userPickedLanguage.isNullOrEmpty()) {
-                languageParameter + userPickedLanguage
-            } else languageParameter + language
+            
+            return when {
+                !userPickedLanguage.isNullOrEmpty() -> languageParameter + userPickedLanguage
+                !appLanguage.isNullOrEmpty() -> languageParameter + appLanguage
+                else -> languageParameter + language
+            }
         }
 
         fun getLanguageParameter2(context: Context?): String {
@@ -164,10 +169,15 @@ open class BaseActivity : AppCompatActivity() {
             val preferences = PreferenceManager.getDefaultSharedPreferences(
                 context!!
             )
+            // Check both key_language (app language) and key_api_language (API language)
+            val appLanguage = preferences.getString("key_language", null)
             val userPickedLanguage = preferences.getString(API_LANGUAGE_PREFERENCE, null)
-            return if (!userPickedLanguage.isNullOrEmpty()) {
-                languageParameter + userPickedLanguage
-            } else languageParameter + language
+            
+            return when {
+                !userPickedLanguage.isNullOrEmpty() -> languageParameter + userPickedLanguage
+                !appLanguage.isNullOrEmpty() -> languageParameter + appLanguage
+                else -> languageParameter + language
+            }
         }
 
         fun getRegionParameter(context: Context?): String {

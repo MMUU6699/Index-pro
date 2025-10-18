@@ -19,6 +19,7 @@
   -->
 
 <resources>
+    <string name="app_name" translatable="false">Billie Eilish</string>
     <string name="not_watched">Not Watched</string>
     <string name="i_am_watching">Watching Now!</string>
     <string name="list_add">Add to List</string>
@@ -176,6 +177,7 @@
     <string name="later">Later</string>
     <string name="episode_number_format" translatable="false">(%d)</string>
     <string name="rv_rating_format" translatable="false">%.1f/%d</string>
+    <string name="rating_format">%.1f/%s</string>
     <string name="rating_na">N/A</string>
     <string name="export_directory_not_selected">Export directory not selected</string>
     <string name="export_in_progress">Export in progress</string>
@@ -216,6 +218,12 @@
     <string name="starting_import">Starting import…</string>
     <string name="importing">Importing…</string>
     <string name="import_complete">Import complete!</string>
+    <string name="action_profile">Profile</string>
+    <string name="profile_title">Profile</string>
+    <string name="favorites">Favorites</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="settings">Settings</string>
+    <string name="user_profile">User Profile</string>
     <string name="import_failed_or_finished_with_errors">Import failed or finished with errors.</string>
     <string name="csv_import_service_notifications">CSV Import Service notifications</string>
     <string name="import_error">Import Error</string>
@@ -431,4 +439,51 @@
     </plurals>
     <string name="videos">Videos</string>
     <string name="no_videos_available">No videos available</string>
+    
+    <!-- Video Player -->
+    <string name="video_player">Video Player</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="play_video">Play Video</string>
+    <string name="video_not_available">Video not available</string>
+    <string name="loading_video">Loading video...</string>
+    <string name="video_error">Video playback error</string>
+    
+    <!-- Login -->
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="welcome_to_app">Welcome to %1$s</string>
+    <string name="welcome_message">Discover the world of movies and TV shows</string>
+    <string name="login_description">Sign in to get a personalized experience tailored for you</string>
+
+    <string name="login_footer">By signing in, you agree to our Terms of Service and Privacy Policy</string>
+
+    
+    <!-- Additional strings for new features -->
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="select_language">Select Language</string>
+    <string name="language_changed">Language changed</string>
+    <string name="restart_app_for_language_change">Restart app for language change</string>
+    <string name="google_login">Google Login</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_required">Login Required</string>
+    <string name="please_login_to_continue">Please login to continue</string>
+    <string name="logout">Logout</string>
+    <string name="guest_user">Guest User</string>
+    <string name="not_logged_in">Not logged in</string>
+    <string name="skip_login">Skip</string>
+    <string name="login_success">Login successful!</string>
+    <string name="login_failed">Login failed. Please try again.</string>
+    <string name="login_cancelled">Login cancelled</string>
+    <string name="play_movie">Play Movie</string>
+    <string name="play_episode">Play Episode</string>
+    <string name="import_csv">Import CSV</string>
+    <string name="import_button">Import</string>
+    <string name="statistics">Statistics</string>
+    <string name="movies">Movies</string>
+    <string name="delimiter">Delimiter</string>
+    <string name="csv_import_info">CSV Import Info</string>
+    <string name="csv_file_imported_successfully">CSV file imported successfully</string>
+    <string name="failed_to_import_csv_file">Failed to import CSV file</string>
 </resources>

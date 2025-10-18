@@ -274,7 +274,7 @@ class PersonActivity : BaseActivity() , AdapterDataChangedListener {
                 mSearchAction = menu.findItem(R.id.action_search)
                 mSearchAction?.isVisible = false
                 //hide account menu item
-                val accountMenuItem = menu.findItem(R.id.action_login)
+                val accountMenuItem = menu.findItem(R.id.action_profile)
                 accountMenuItem.isVisible = false
             }
         }, this, Lifecycle.State.RESUMED)

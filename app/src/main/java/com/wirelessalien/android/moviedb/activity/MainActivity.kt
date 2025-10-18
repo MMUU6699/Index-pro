@@ -91,14 +91,14 @@ import com.wirelessalien.android.moviedb.databinding.ActivityMainBinding
 import com.wirelessalien.android.moviedb.databinding.DialogProgressIndicatorBinding
 import com.wirelessalien.android.moviedb.databinding.DialogRefreshOptionsBinding
 import com.wirelessalien.android.moviedb.fragment.AboutBottomSheet
+import com.wirelessalien.android.moviedb.activity.ProfileActivity
 import com.wirelessalien.android.moviedb.fragment.AccountDataFragment
 import com.wirelessalien.android.moviedb.fragment.AccountDataFragmentTkt
 import com.wirelessalien.android.moviedb.fragment.BaseFragment
 import com.wirelessalien.android.moviedb.fragment.HomeFragment
 import com.wirelessalien.android.moviedb.fragment.ListFragment
 import com.wirelessalien.android.moviedb.fragment.ListFragment.Companion.newSavedInstance
-import com.wirelessalien.android.moviedb.fragment.LoginFragment
-import com.wirelessalien.android.moviedb.fragment.LoginFragmentTkt
+
 import com.wirelessalien.android.moviedb.fragment.ShowFragment
 import com.wirelessalien.android.moviedb.fragment.ShowFragment.Companion.newInstance
 import com.wirelessalien.android.moviedb.fragment.SyncProviderBottomSheet
@@ -303,14 +303,9 @@ class MainActivity : BaseActivity() {
                     return true
                 }
 
-                if (id == R.id.action_login) {
-                    if (preferences.getString("sync_provider", "local") == "trakt") {
-                        val loginFragmentTkt = LoginFragmentTkt()
-                        loginFragmentTkt.show(supportFragmentManager, "login")
-                    } else {
-                        val loginFragment = LoginFragment()
-                        loginFragment.show(supportFragmentManager, "login")
-                    }
+                if (id == R.id.action_profile) {
+                    val intent = Intent(applicationContext, ProfileActivity::class.java)
+                    startActivity(intent)
                     return true
                 }
 

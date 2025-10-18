@@ -1,25 +1,25 @@
 <div align="center">
-  <a href="https://github.com/WirelessAlien/MovieDb">
-    <img src="https://github.com/WirelessAlien/MovieDB/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="ShowCase Logo" width="100" height="100">
+  <a href="https://github.com/gdytd141-commits/MovieDB">
+    <img src="https://github.com/gdytd141-commits/MovieDB/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="Billie Eilish Logo" width="100" height="100">
   </a>
-  <h1>ShowCase</h1>
-  <p>Explore and organize your personal collection of films and television series with ease.</p>
+  <h1>🎵 Billie Eilish Movie App</h1>
+  <p>Discover and stream your favorite movies and TV shows with the ultimate entertainment companion inspired by Billie Eilish.</p>
 </div>
 
 <!-- Badges -->
 <div align="center">
-  <a href="https://github.com/WirelessAlien/MovieDB/actions/workflows/release.yml">
-    <img src="https://github.com/WirelessAlien/MovieDB/actions/workflows/release.yml/badge.svg" alt="Build Status"/>
+  <a href="https://github.com/gdytd141-commits/MovieDB/actions/workflows/release.yml">
+    <img src="https://github.com/gdytd141-commits/MovieDB/actions/workflows/release.yml/badge.svg" alt="Build Status"/>
   </a>
-  <a href="https://f-droid.org/packages/com.wirelessalien.android.moviedb/">
-    <img src="https://img.shields.io/f-droid/v/com.wirelessalien.android.moviedb.svg" alt="F-Droid"/>
-  </a>
-  <a href="https://github.com/WirelessAlien/MovieDB/releases/latest">
-    <img src="https://img.shields.io/github/v/release/WirelessAlien/MovieDB?label=GitHub" alt="GitHub release"/>
+  <a href="https://github.com/gdytd141-commits/MovieDB/releases/latest">
+    <img src="https://img.shields.io/github/v/release/gdytd141-commits/MovieDB?label=GitHub" alt="GitHub release"/>
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.txt">
-    <img src="https://img.shields.io/github/license/WirelessAlien/MovieDB" alt="License"/>
+    <img src="https://img.shields.io/github/license/gdytd141-commits/MovieDB" alt="License"/>
   </a>
+  <img src="https://img.shields.io/badge/Language-Arabic%20%7C%20English-blue" alt="Languages"/>
+  <img src="https://img.shields.io/badge/Video%20Player-SuperEmbed-green" alt="Video Player"/>
+  <img src="https://img.shields.io/badge/Auth-Google%20Sign--In-red" alt="Authentication"/>
 </div>
 
 <p align="center">
@@ -29,7 +29,6 @@
   <a href="#installation">Installation</a> •
   <a href="#building-from-source">Build</a> •
   <a href="#contributing">Contribute</a> •
-  <a href="#donate">Donate</a> •
   <a href="#license">License</a>
 </p>
 
@@ -37,82 +36,159 @@
 
 ## About The Project
 
-ShowCase (formerly Movie DB) is a fully open-source Android application designed for enthusiasts to explore, discover, and organize their personal collection of films and television series.
+**Billie Eilish Movie App** is a modern, feature-rich Android application that brings the world of entertainment to your fingertips. Inspired by the artistic vision of Billie Eilish, this app combines sleek design with powerful functionality to deliver an unparalleled movie and TV show experience.
 
-It offers synchronization with your TMDB and Trakt accounts. Once logged in, you can sync your favorites, watchlist, rated movies, and more. It also integrates with a local database to keep track of your shows. You can assign various statuses to each title—such as ‘planned’, ‘watched’, or ‘dropped’—rate them, and note the dates you commenced and concluded each show.
+🎬 **Stream & Discover**: Watch your favorite movies and TV shows directly through our integrated SuperEmbed video player, offering high-quality streaming with seamless playback.
 
-The app allows you to filter shows based on genre, release dates, and more. Detailed information on each show, including the cast, crew, and recommendations for similar titles, is also available.
+🌍 **Multilingual Experience**: Full support for Arabic and English languages, with automatic data fetching in your preferred language from TMDB.
+
+👤 **Google Sign-In**: Secure and convenient authentication with Google accounts for personalized experiences.
+
+📱 **Modern Design**: Beautiful, intuitive interface that adapts to your device's theme with Material You design principles.
+
+🎵 **Billie Eilish Inspired**: Every element of the app reflects the unique aesthetic and style that Billie Eilish represents.
 
 ---
 
 ## Key Features
 
--   ✨ **TMDB & Trakt Sync:** Seamless synchronization for favorites, watchlist, ratings, and collections.
--   📝 **List Management:** Create and manage public/private lists on TMDB.
--   📊 **External Ratings:** View ratings from IMDb and other sources.
--   📱 **Offline Support:** Local database for tracking shows and personal progress.
--   🔄 **Data Management:** Import and export your local database.
--   🎨 **Material You:** Modern UI that adapts to your device's theme.
--   🔔 **Release Notifications:** Get notified about new movie and TV show releases.
--   🔄 **External Data Import:** Import data from other app (more on [Wiki](https://github.com/WirelessAlien/MovieDB/wiki/Frequently-Asked-Questions-(FAQ)#can-i-import-a-database-from-another-application))
--   ...and many more!
+### 🎥 **Video Streaming**
+-   🎬 **SuperEmbed Integration**: High-quality video streaming powered by SuperEmbed API
+-   📺 **Multi-Format Support**: Movies, TV shows, and live channels
+-   🎮 **Advanced Controls**: Volume, brightness, and fullscreen controls
+-   📱 **Responsive Player**: Optimized for all screen sizes
+
+### 🌐 **Multilingual Support**
+-   🇸🇦 **Arabic Language**: Complete RTL support with native Arabic interface
+-   🇺🇸 **English Language**: Full English localization
+-   🔄 **Dynamic Language Switching**: Change language on-the-fly in settings
+-   📊 **Localized Data**: TMDB data fetched in your preferred language
+
+### 🔐 **Authentication & Profile**
+-   🔑 **Google Sign-In**: Secure authentication with Google accounts
+-   👤 **User Profiles**: Personalized user experience with statistics
+-   ⭐ **Favorites Management**: Save and organize your favorite content
+-   📋 **Watchlist**: Keep track of what you want to watch
+-   📊 **Statistics**: View your watching statistics and progress
+
+### 🎨 **Design & UI**
+-   🎵 **Billie Eilish Theme**: Unique design inspired by Billie Eilish's aesthetic
+-   🌙 **Material You**: Modern UI that adapts to your device's theme
+-   📱 **Responsive Design**: Optimized for phones and tablets
+-   🎨 **Custom Icons**: Beautiful, consistent iconography throughout
+
+### 📊 **Data & Content**
+-   🎬 **TMDB Integration**: Comprehensive movie and TV show database
+-   🔍 **Advanced Search**: Find content by title, genre, year, and more
+-   ⭐ **Ratings & Reviews**: View ratings from multiple sources
+-   🎭 **Cast & Crew**: Detailed information about actors and filmmakers
+-   📅 **Release Tracking**: Stay updated with new releases
+
 ---
 
 ## Screenshots
 
-<pre>
-<img src="https://github.com/user-attachments/assets/ab547d5e-a1ca-4b72-a80d-4414cf68b38b" width="130" height="280" /> <img src="https://github.com/user-attachments/assets/a30a0917-012f-40af-a882-2f1839a40076" width="130" height="280" /> <img src="https://github.com/user-attachments/assets/79f3a547-e66a-4f5d-bdba-8a1ed807df39" width="130" height="280" /> <img src="https://github.com/user-attachments/assets/1cafa7af-f725-424a-8ee2-58434d5c95fa" width="130" height="280" /> <img src="https://github.com/user-attachments/assets/61d0e36c-47d8-4668-a2ea-cdb7a247fee9" width="130" height="280" /> <img src="https://github.com/user-attachments/assets/6830be73-220b-4b37-9083-5e7de5e07300" width="130" height="280" />
-</pre>
+<div align="center">
+  <p><em>Screenshots will be updated soon with the new Billie Eilish theme!</em></p>
+</div>
 
 ---
 
 ## Installation
 
-### Release Channels
+### 📱 Download Options
 
-You can download and install ShowCase from the following sources:
+You can download and install the Billie Eilish Movie App from the following sources:
 
-| Source                                                                                                | Link                                                                                                                               | Notes                                     |
-| :---------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------- |
- **GitHub Releases** | [<img src="https://img.shields.io/github/v/release/WirelessAlien/MovieDB?label=Latest%20Release&style=for-the-badge" alt="GitHub release"/>](https://github.com/WirelessAlien/MovieDB/releases/latest) | Standard version & ShowCase Plus (with GDrive backup) |
-**F-Droid**                 | [<img src="https://img.shields.io/f-droid/v/com.wirelessalien.android.moviedb.svg?style=for-the-badge" alt="F-Droid"/>](https://f-droid.org/packages/com.wirelessalien.android.moviedb/) | Standard version, no GDrive backup      |
+| Version | Download | Size | Features |
+|---------|----------|------|----------|
+| **Full Version** | [📥 Download APK](https://github.com/gdytd141-commits/MovieDB/releases/latest/download/Billie-Eilish-Full-Debug.apk) | ~14MB | Complete features with Google Services |
+| **FOSS Version** | [📥 Download APK](https://github.com/gdytd141-commits/MovieDB/releases/latest/download/Billie-Eilish-FOSS-Debug.apk) | ~12MB | Open source version without Google Services |
 
-### ShowCase Plus Note
+### 🔧 Installation Instructions
 
-> [!IMPORTANT]
-> The **ShowCase Plus** version includes a feature for backing up your local database to Google Drive. This version is available exclusively from the [GitHub Releases](https://github.com/WirelessAlien/MovieDB/releases/latest) page and is not available on F-Droid due to its inclusion of proprietary Google services. Learn more about the different app versions on the [project wiki](https://github.com/WirelessAlien/MovieDB/wiki/App-Version).
+1. **Enable Unknown Sources**: Go to Settings > Security > Enable "Unknown Sources"
+2. **Download APK**: Choose your preferred version from the table above
+3. **Install**: Open the downloaded APK file and follow the installation prompts
+4. **Enjoy**: Launch the app and start exploring!
+
+> **Note**: The Full Version is recommended for the complete experience including Google Sign-In functionality.
 
 ---
 
 ## Building from Source
 
-ShowCase can be compiled using Android Studio or via the command line with Gradle.
+The Billie Eilish Movie App can be compiled using Android Studio or via the command line with Gradle.
 
-1.  **Clone the repository**
-  
-2.  **Set up API Keys:**
-    *   Get a free API Key from [TMDB](https://www.themoviedb.org/settings/api).
-    *   Create a `config.properties` file in the root project directory. If a `config.properties` file exists,
-    *   Add your keys to `config.properties`:
-        ```properties
-        api_read_access_token="YOUR_TMDB_READ_ACCESS_TOKEN"
-        api_key="YOUR_TMDB_API_KEY"
-        ```
-3.  **Build the application:**
-    *   **Using Android Studio:**
-        *   Open Android Studio and select 'Open an existing Android Studio project' and use the cloned repository or directly clone the repository using VCS `https://github.com/WirelessAlien/MovieDB.git`.
-        *   Let Gradle sync and download dependencies.
-        *   Build the project using `Build > ` or run it on an emulator/device using `Run > Run 'app'`.
-    *   **Using Command Line (Gradle Wrapper):**
-        ```bash
-        # For Linux/macOS
-        ./gradlew assembleDebug  # For debug build
-        ./gradlew assembleRelease # For release build (requires signing configuration)
+### Prerequisites
 
-        # For Windows
-        gradlew.bat assembleDebug
-        gradlew.bat assembleRelease
-        ```
+- **Android Studio** Arctic Fox or newer
+- **JDK 21** or newer
+- **Android SDK** with API level 34+
+
+### Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/gdytd141-commits/MovieDB.git
+   cd MovieDB
+   ```
+
+2. **Set up API Keys:**
+   - Get a free API Key from [TMDB](https://www.themoviedb.org/settings/api)
+   - Create a `config.properties` file in the root project directory
+   - Add your keys to `config.properties`:
+     ```properties
+     TMDB_ACCESS_TOKEN="YOUR_TMDB_READ_ACCESS_TOKEN"
+     api_key="YOUR_TMDB_API_KEY"
+     ```
+
+3. **Build the application:**
+   
+   **Using Android Studio:**
+   - Open Android Studio and select 'Open an existing Android Studio project'
+   - Navigate to the cloned repository folder
+   - Let Gradle sync and download dependencies
+   - Build the project using `Build > Make Project`
+   - Run on device/emulator using `Run > Run 'app'`
+
+   **Using Command Line:**
+   ```bash
+   # For Linux/macOS
+   ./gradlew assembleDebug      # Debug build
+   ./gradlew assembleRelease    # Release build
+
+   # For Windows
+   gradlew.bat assembleDebug
+   gradlew.bat assembleRelease
+   ```
+
+### Build Variants
+
+- **`foss`**: Open source version without Google Services
+- **`full`**: Complete version with all features including Google Services
+
+---
+
+## API Integration
+
+### 🎬 TMDB API
+The app uses The Movie Database (TMDB) API for fetching movie and TV show information:
+- **Base URL**: `https://api.themoviedb.org/3/`
+- **Authentication**: Bearer token authentication
+- **Features**: Movie details, TV shows, search, trending content
+
+### 📺 SuperEmbed API
+Video streaming is powered by SuperEmbed:
+- **Service**: [SuperEmbed.stream](https://www.superembed.stream/)
+- **Features**: High-quality video streaming, multiple sources
+- **Supported Content**: Movies, TV shows, live channels
+
+### 🔐 Google Sign-In
+Authentication is handled through Google Sign-In:
+- **Service**: Google Identity Services
+- **Features**: Secure authentication, user profiles
+- **Privacy**: Minimal data collection, user consent required
 
 ---
 
@@ -120,48 +196,88 @@ ShowCase can be compiled using Android Studio or via the command line with Gradl
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**!
 
-### Reporting Bugs & Requesting Features
+### 🐛 Reporting Issues
 
-If you encounter a bug or have a feature idea, please check the [existing issues](https://github.com/WirelessAlien/MovieDB/issues) first. If your issue or idea isn't listed, feel free to [open a new one](https://github.com/WirelessAlien/MovieDB/issues/new/choose):
-*   [Report a Bug](https://github.com/WirelessAlien/MovieDB/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
-*   [Request a Feature](https://github.com/WirelessAlien/MovieDB/issues/new?assignees=&labels=enhancement&template=feature_request.md&title=)
+If you encounter a bug or have a feature request:
 
-### Pull Requests
+1. Check [existing issues](https://github.com/gdytd141-commits/MovieDB/issues) first
+2. If not found, [create a new issue](https://github.com/gdytd141-commits/MovieDB/issues/new)
+3. Provide detailed information about the problem or suggestion
 
-1.  Fork the Project.
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the Branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request against the `master` branch.
+### 🔧 Pull Requests
 
-Please ensure your code adheres to the project's coding standards and that any new features are well-tested.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request against the `master` branch
 
-### Translations
+### 🌍 Translations
 
-Help us make ShowCase accessible to more users by contributing translations!
-Visit our [Weblate project page](https://hosted.weblate.org/engage/showcase/) to get started.
+Help us make the Billie Eilish Movie App accessible to more users by contributing translations! Currently supported languages:
 
-<a href="https://hosted.weblate.org/engage/showcase/">
-<img src="https://hosted.weblate.org/widget/showcase/strings/287x66-white.png" alt="Translation status" />
-</a>
+- 🇺🇸 **English** (Complete)
+- 🇸🇦 **Arabic** (Complete)
 
+To add a new language:
+1. Create a new `values-[language_code]` folder in `app/src/main/res/`
+2. Copy `strings.xml` from `values/` and translate all strings
+3. Test the translation in the app
+4. Submit a pull request
+
+---
+
+## Changelog
+
+### Version 2.0.0 - "Billie Eilish Edition" 🎵
+- 🎵 **Complete rebrand** to Billie Eilish theme
+- 🎬 **SuperEmbed integration** for video streaming
+- 🌍 **Arabic language support** with RTL layout
+- 🔐 **Google Sign-In** authentication
+- 👤 **New profile system** with statistics and favorites
+- 🎨 **Modern UI redesign** with Material You
+- 📱 **Improved performance** and bug fixes
+
+---
+
+## Privacy Policy
+
+The Billie Eilish Movie App respects your privacy:
+
+- **Data Collection**: Minimal data collection, only what's necessary for functionality
+- **Google Sign-In**: Optional feature, user consent required
+- **Local Storage**: Most data stored locally on your device
+- **Third-Party Services**: TMDB for content data, SuperEmbed for video streaming
+- **No Tracking**: No user tracking or analytics without consent
 
 ---
 
 ## License
 
-Distributed under the GNU General Public License v3.0. See [`LICENSE`](LICENSE) file for the full text and [GPL-3.0 Overview](https://www.gnu.org/licenses/gpl-3.0.html) for more information.
+Distributed under the GNU General Public License v3.0. See [`LICENSE`](LICENSE) file for the full text.
+
+```
+Copyright (C) 2024 Billie Eilish Movie App
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+```
 
 ---
 
-## Donate
+## Acknowledgments
 
-If you find ShowCase useful and would like to support its development, please consider donating. Your support helps keep the project alive.
+- 🎵 **Billie Eilish** - For the inspiration and artistic vision
+- 🎬 **TMDB** - For providing comprehensive movie and TV data
+- 📺 **SuperEmbed** - For reliable video streaming services
+- 🔐 **Google** - For secure authentication services
+- 🌍 **Open Source Community** - For continuous support and contributions
 
-<noscript><a href="https://liberapay.com/WirelessAlien/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>  
+---
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I01JN1GG)
-
-<a href="https://www.paypal.me/WirelessAlien">
-  <img src="https://github.com/user-attachments/assets/d2b47113-80e3-40f7-aeb1-a4e07c56c2ef" alt="paypal" width="100" />
-</a>
+<div align="center">
+  <p>Made with ❤️ and inspired by 🎵 Billie Eilish</p>
+  <p><strong>Enjoy streaming! 🎬</strong></p>
+</div>

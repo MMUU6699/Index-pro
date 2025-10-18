@@ -713,6 +713,21 @@ class DetailActivity : BaseActivity(), ListTmdbBottomSheetFragment.OnListCreated
             Log.w("CT", "No CT supported browser available")
         }
 
+        // Setup play button
+        binding.playButton.setOnClickListener {
+            val intent = Intent(this, VideoPlayerActivity::class.java)
+            intent.putExtra(VideoPlayerActivity.EXTRA_MOVIE_ID, movieId)
+            intent.putExtra(VideoPlayerActivity.EXTRA_MOVIE_TITLE, movieTitle)
+            intent.putExtra(VideoPlayerActivity.EXTRA_IS_MOVIE, isMovie)
+            if (!isMovie) {
+                // For TV shows, we'll play the first episode of first season by default
+                // This can be enhanced later to play the next unwatched episode
+                intent.putExtra(VideoPlayerActivity.EXTRA_SEASON_NUMBER, 1)
+                intent.putExtra(VideoPlayerActivity.EXTRA_EPISODE_NUMBER, 1)
+            }
+            startActivity(intent)
+        }
+
         binding.fab.setOnClickListener(object : View.OnClickListener {
             val typeCheck = if (isMovie) "movie" else "tv"
             override fun onClick(view: View) {

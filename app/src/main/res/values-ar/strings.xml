@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~     This file is part of "Billie Eilish" formerly Movie DB. <https://github.com/WirelessAlien/MovieDB>
+  ~     forked from <https://notabug.org/nvb/MovieDB>
+  ~
+  ~     Copyright (C) 2024  WirelessAlien <https://github.com/WirelessAlien>
+  ~
+  ~     Billie Eilish is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     Billie Eilish is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with "Billie Eilish".  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_name" translatable="false">Billie Eilish</string>
+    <string name="not_watched">لم يتم المشاهدة</string>
+    <string name="i_am_watching">أشاهد الآن!</string>
+    <string name="list_add">إضافة إلى القائمة</string>
+    <string name="add_to_history">إضافة إلى التاريخ</string>
+    <string name="add_to_collection">إضافة إلى المجموعة</string>
+    <string name="add_details">إضافة تفاصيل</string>
+    <string name="mark_as_watched">تحديد كمشاهد</string>
+    <string name="progress">التقدم</string>
+    <string name="collection">المجموعة</string>
+    <string name="history">التاريخ</string>
+    <string name="in_collection">في المجموعة</string>
+    <string name="in_history">تم المشاهدة</string>
+    <string name="rated_at">تم التقييم في</string>
+    <string name="add_to_watchlist">إضافة إلى قائمة المشاهدة</string>
+    <string name="select_time">اختر الوقت</string>
+    <string name="public_list">عام</string>
+    <string name="last_watched">آخر مشاهدة: %1$s</string>
+    <string name="collected">تم الجمع</string>
+    <string name="episode_title_format">%1$s (الموسم:%2$d الحلقة:%3$d %4$s)</string>
+    <string name="start_date2">تاريخ البداية:</string>
+    <string name="fetching_data">جاري جلب البيانات…</string>
+    <string name="select_options">اختر الخيارات</string>
+    <string name="movie_collection">مجموعة الأفلام</string>
+    <string name="show_collection">مجموعة المسلسلات</string>
+    <string name="movie_watched">الأفلام المشاهدة</string>
+    <string name="show_watched">المسلسلات المشاهدة</string>
+    <string name="list_items">عناصر القائمة</string>
+    <string name="fetching_movie_collection">جاري جلب مجموعة الأفلام…</string>
+    <string name="fetching_show_collection">جاري جلب مجموعة المسلسلات…</string>
+    <string name="fetching_movie_watched">جاري جلب الأفلام المشاهدة…</string>
+    <string name="fetching_show_watched">جاري جلب المسلسلات المشاهدة…</string>
+    <string name="fetching_history">جاري جلب التاريخ…</string>
+    <string name="fetching_rating">جاري جلب التقييم…</string>
+    <string name="fetching_watchlist">جاري جلب قائمة المشاهدة…</string>
+    <string name="fetching_favorite">جاري جلب المفضلة…</string>
+    <string name="fetching_lists">جاري جلب القوائم…</string>
+    <string name="fetching_list_items">جاري جلب عناصر القائمة…</string>
+    <string name="fetching_tmdb_data">جاري جلب بيانات TMDB…</string>
+    <string name="episode">الحلقة</string>
+    <string name="show">المسلسل</string>
+    <string name="season1">الموسم</string>
+    <string name="hide_the_account_tab_tkt">إخفاء تبويب \'الحساب (TRAKT)\'</string>
+    <string name="search_people">البحث عن الأشخاص</string>
+    <string name="search_movies">البحث عن الأفلام…</string>
+    <string name="search_series">البحث عن المسلسلات…</string>
+    <string name="search_saved">البحث في المحفوظات…</string>
+    <string name="error_loading_data">خطأ</string>
+    <string name="season_p">الموسم %1$d</string>
+    <string name="media_details_not_found">تفاصيل الوسائط غير موجودة</string>
+    <string name="disable_month">تعطيل الشهر</string>
+    <string name="select_a_time">اختر وقتاً</string>
+    <string name="failed_to_sync">فشل في مزامنة %1$s</string>
+    <string name="success">نجح</string>
+    <string name="no">لا</string>
+    <string name="remove_from_collection">إزالة من المجموعة</string>
+    <string name="remove_from_collection_confirmation">هل أنت متأكد من إزالة هذا العنصر من مجموعتك؟</string>
+    <string name="yes">نعم</string>
+    <string name="please_select_a_date">يرجى اختيار تاريخ</string>
+    <string name="remove_from_history">إزالة من التاريخ</string>
+    <string name="remove_from_history_confirmation">هل أنت متأكد من إزالة هذا العنصر من تاريخك؟</string>
+    <string name="season_episode_p">الموسم:%1$d الحلقة:%2$d %3$s</string>
+    <string name="episode_p">الحلقة %1$d</string>
+    <string name="episode_s">الحلقة %1$d(الموسم: %2$d)</string>
+    <string name="account_swap">تغيير مزود المزامنة</string>
+    <string name="failed_to_get_trakt_access">فشل في الحصول على وصول Trakt</string>
+    <string name="please_log_in_again_for_trakt">يرجى تسجيل الدخول مرة أخرى لمتابعة استخدام ميزات Trakt</string>
+    <string name="general_notifications">الإشعارات العامة</string>
+    <string name="ep_progress_text">%1$d/%2$d (%3$d متبقي)</string>
+    <string name="stats">الإحصائيات</string>
+    <string name="movies_collected">الأفلام المجمعة</string>
+    <string name="time_spent">الوقت المستغرق</string>
+    <string name="imdb" translatable="false">IMDb: %1$s</string>
+    <string name="r_tomatoes" translatable="false">R. Tomatoes: %1$s</string>
+    <string name="metacritic" translatable="false">Metacritic: %1$s</string>
+    <string name="omdb_api_key">مفتاح OMDB API</string>
+    <string name="omdb_api_key_summary">تعيين مفتاح OMDB API لعرض بيانات التقييمات الخارجية</string>
+    <string name="born_date_place">وُلد في %1$s في %2$s</string>
+    <string name="born_date">وُلد في %1$s</string>
+    <string name="born_place">وُلد في %1$s</string>
+    <string name="choose_date_type">اختر نوع التاريخ</string>
+    <string name="sync_provider">مزود المزامنة</string>
+    <string name="text_tkt_credits">يستخدم هذا التطبيق Trakt API ولكنه غير مدعوم أو معتمد من Trakt</string>
+    <string name="select_default_sync_provider">اختر مزود المزامنة الافتراضي</string>
+    <string name="sync_provider2">مزود المزامنة</string>
+    <string name="sync_provider_summary_1">اختر مزود المزامنة المفضل لديك. يمكنك تحديث هذا الاختيار لاحقاً في الإعدادات.</string>
+    <string name="sync_local_summary">يتم تخزين البيانات محلياً. يمكن تصدير قاعدة البيانات كملف والنسخ الاحتياطي إلى Google Drive متاح أيضاً.</string>
+    <string name="sync_trakt_summary">قائمة المشاهدة، تاريخ المشاهدة، القوائم، المفضلة، المجموعة، والتقييمات متزامنة مع Trakt.</string>
+    <string name="sync_tmdb_summary">قائمة المشاهدة، القوائم، المفضلة، والتقييمات متزامنة مع TMDB</string>
+    <string name="sync_provider_summary_2">TMDB يعمل كمصدر البيانات الأساسي، ويتم استخدام بياناته للمزامنة مع كل من TMDB و Trakt. إذا اخترت استخدام Trakt أو TMDB كمزود مزامنة، يجب عليك ربط حسابك المعني. لا يلزم حساب لقاعدة البيانات المحلية.</string>
+    <string name="force_local_sync">تمكين المزامنة المحلية حتى لو تم اختيار مزود آخر</string>
+    <string name="minimal_tkt_sync_desc">هذا نظام مبسط وخالي من المتاعب لمزامنة البيانات مع Trakt. فقط الإدخالات المحددة كـ \"مشاهدة\" في قسم \"المحفوظات\" (الأفلام والمسلسلات) سيتم مزامنتها. إذا تم توفير تاريخ \"انتهاء المشاهدة\"، فسيتم استخدامه كتاريخ المشاهدة.\n\nهذه مزامنة أحادية الاتجاه، مما يعني أن البيانات سيتم إرسالها إلى Trakt ولكن لن يتم استردادها منه. للوصول إلى بيانات حساب Trakt الخاص بك، قم بزيارة تبويب \"الحساب\".\n\nللحصول على تجربة مزامنة بسيطة، يمكنك تعيين مزود المزامنة الافتراضي إلى \"محلي\" وتمكين طريقة المزامنة التلقائية هذه. بمجرد التمكين، ستتم مزامنة بياناتك تلقائياً مع Trakt يومياً.</string>
+    <string name="sync_with_trakt">المزامنة مع Trakt</string>
+    <string name="auto_tkt_des1"> ⓘ موصى به للمستخدمين الذين يبحثون عن خيار مزامنة مبسط بدون تكامل Trakt كامل.</string>
+    <string name="auto_sync">المزامنة التلقائية</string>
+    <string name="latest">الأحدث</string>
+    <string name="watching_now">أشاهد الآن</string>
+    <string name="gen_error_msg">حدث خطأ ما</string>
+    <string name="fetching_upcoming">جاري جلب الأفلام والمسلسلات القادمة…</string>
+    <string name="mark_as_watched_l">مشاهدة (محلي)</string>
+    <string name="mark_as_watched_t">مشاهدة (Trakt)</string>
+    <string name="mark_as_un_watched_l">غير مشاهدة (محلي)</string>
+    <string name="mark_as_un_watched_t">غير مشاهدة (Trakt)</string>
+    <string name="mark_as">تحديد كـ</string>
+    <string name="get_tkt_data">جلب بيانات \"Trakt\" تلقائياً</string>
+    <string name="get_tkt_data_summary">الحصول على بيانات الحساب الكاملة من \"Trakt\" تلقائياً مرة واحدة في الأسبوع</string>
+    <string name="cancel_sync">إلغاء المزامنة</string>
+    <string name="fetching_trakt_data">جاري جلب بيانات Trakt…</string>
+    <string name="fetching_tmdb_data1">جاري جلب بيانات TMDB…</string>
+    <string name="sync_completed">اكتملت المزامنة</string>
+    <string name="auto_fetch">مزامنة البيانات التلقائية</string>
+    <string name="quick_access">الوصول السريع</string>
+    <string name="trakt_login_required">تسجيل الدخول إلى Trakt لتمكين الجلب التلقائي</string>
+    <string name="show_more">عرض المزيد</string>
+    <string name="show_less">عرض أقل</string>
+    <string name="all">الكل</string>
+    <string name="no_upcoming_content">لم يتم العثور على محتوى قادم</string>
+    <string name="no_upcoming_shows">لا توجد مسلسلات أو أفلام قادمة للعرض.</string>
+    <string name="upcoming_text">قادم في %1$s، الموسم %2$s، الحلقة %3$s</string>
+    <string name="sync_provider_caution">⚠ إذا تم تمكين عدة مزودين، قد لا يكون من السهل التمييز بين طرق الإدخال لجميع المزودين، لذا استخدم بحذر.</string>
+    <string name="trakt_login_required_1">تسجيل الدخول - Trakt</string>
+    <string name="omdb_api_key1">مفتاح OMDB API</string>
+    <string name="omdb_api_desc_1">لعرض التقييمات من IMDb و Rotten Tomatoes و Metacritic، تحتاج إلى إدخال مفتاح OMDB API الخاص بك. يتم استخدام مفتاح API هذا لجلب بيانات التقييمات الخارجية.</string>
+    <string name="omdb_api_desc2">OMDB API لديه طبقة مجانية للاستخدام الشخصي. للحصول على مفتاح API المجاني الخاص بك، اتبع هذه الخطوات:</string>
+    <string name="omdb_api_desc3">1. اذهب إلى موقع OMDB: https://www.omdbapi.com/\n2. انقر على \'مفتاح API\' في قائمة التنقل.\n3. سجل للحصول على حساب مجاني.\n4. بمجرد التسجيل، سيتم إرسال مفتاح API الخاص بك إلى بريدك الإلكتروني.</string>
+    <string name="omdb_api_desc_4">يمكنك أيضاً إدخال مفتاح OMDB API الخاص بك لاحقاً في الإعدادات.</string>
+    <string name="api_key">مفتاح API</string>
+    <string name="dont_show_this_dialog_again">لا تظهر هذا الحوار مرة أخرى.</string>
+    <string name="quick_access_with_long_click">الوصول السريع بالضغط الطويل</string>
+    <string name="quick_access_desc1">اكتشف الإجراءات السريعة لمسلسلاتك باستخدام الضغط الطويل على عنصر \'المسلسل\'. يوفر هذا وصولاً فورياً إلى المواسم والحلقات التي تحتاج لمشاهدتها.</string>
+    <string name="when_watching_a_show">عند مشاهدة مسلسل:</string>
+    <string name="quick_access_desc2">اضغط ضغطة طويلة على \'المسلسل\' للانتقال فوراً إلى الحلقة التالية التي تحتاج لمشاهدتها. هذه أسرع طريقة لمتابعة مشاهدة مسلسلاتك المفضلة.</string>
+    <string name="tap_anywhere_outside_this_sheet_to_dismiss">انقر في أي مكان خارج هذه الورقة للإغلاق.</string>
+    <string name="get_tmdb_progress_data">الحصول على بيانات الحلقة</string>
+    <string name="fetching_episode_data">جاري جلب بيانات الحلقة…</string>
+    <string name="fetching_show_data">جاري الجلب… %s</string>
+    <string name="fetching_item_of">جاري جلب العنصر %1$d من %2$d</string>
+    <string name="source_code">الكود المصدري</string>
+    <string name="license">الرخصة</string>
+    <string name="author_wirelessalien" translatable="false">المؤلف: Abhilash</string>
+    <string name="report_an_issue">الإبلاغ عن مشكلة</string>
+    <string name="episodesL">الحلقات</string>
+    <string name="marked_episodes_as_watched">تم تحديد %1$d حلقة كمشاهدة</string>
+    <string name="marked_episodes_as_unwatched">تم تحديد %1$d حلقة كغير مشاهدة</string>
+    <string name="mark_season_watched">تحديد الموسم كمشاهد</string>
+    <string name="mark_season_unwatched">تحديد الموسم كغير مشاهد</string>
+    <string name="season_marked_watched">تم تحديد الموسم كمشاهد</string>
+    <string name="season_marked_unwatched">تم تحديد الموسم كغير مشاهد</string>
+    <string name="no_episodes_found">لم يتم العثور على حلقة</string>
+    <string name="get_complete_account_data">الحصول على بيانات الحساب الكاملة</string>
+    <string name="review1">المراجعات</string>
+    <string name="episode_data_explanation_saved">يحتاج المستخدم للحصول على بيانات الحلقة يدوياً فقط إذا لم تكن البيانات المطلوبة متاحة لإظهار تقدم \"المسلسلات\" (خاصة إذا تم إضافة المسلسل إلى \"المحفوظات\" قبل الإصدار v3.0-beta). للإصدار الجديد يتم إضافة البيانات تلقائياً.</string>
+    <string name="all_reviews">جميع المراجعات</string>
+    <string name="today">اليوم</string>
+    <string name="tomorrow">غداً</string>
+    <string name="later">لاحقاً</string>
+    <string name="episode_number_format" translatable="false">(%d)</string>
+    <string name="rv_rating_format" translatable="false">%.1f/%d</string>
+    <string name="rating_na">غير متاح</string>
+    <string name="export_directory_not_selected">لم يتم اختيار دليل التصدير</string>
+    <string name="export_in_progress">التصدير قيد التقدم</string>
+    <string name="export_completed">اكتمل التصدير</string>
+    <string name="export_success">تم تصدير جميع البيانات</string>
+    <string name="export_partial_success">تم تصدير %1$d من %2$d ملف</string>
+    <string name="export_failed">فشل التصدير</string>
+    <string name="tkt_export_info">ملفات CSV المصدرة منسقة للتوافق مع TMDB. قم باستيرادها عبر أداة الاستيراد/التصدير في TMDB في إعدادات الحساب.</string>
+    <string name="import_tmdb">الاستيراد إلى TMDB</string>
+    <string name="all_previous_episodes_already_watched">جميع الحلقات السابقة تم مشاهدتها بالفعل</string>
+    <string name="no_previous_episodes_in_season">لا توجد حلقات سابقة في هذا الموسم</string>
+    <string name="mark_all_previous_episodes_as_watched">تحديد جميع الحلقات السابقة كمشاهدة</string>
+    <string name="watched_now">تم المشاهدة الآن</string>
+    <string name="watched_at_release">تم المشاهدة عند الإصدار</string>
+    <string name="select_date">اختر التاريخ</string>
+    <string name="database_not_imported">لا يمكن استيراد قاعدة البيانات</string>
+    <string name="no_up_next_episodes">لا توجد حلقات قادمة للمشاهدة</string>
+    <string name="episode_format" translatable="false">S%1$d E%2$d: %3$s</string>
+    <string name="preference_show_next_episode_title">عرض الحلقة التالية للمشاهدة</string>
+    <string name="preference_show_next_episode_summary">في تفاصيل المسلسل، عرض الحلقة التالية للمشاهدة بدلاً من الأحدث أو آخر حلقة تم بثها.</string>
+    <string name="next_episode_upcoming_label">قادم</string>
+    <string name="next_episode_s_e_format">الموسم%1$d الحلقة%2$d</string>
+    <string name="next_episode_not_in_db_message">أضف هذا المسلسل إلى مجموعتك لرؤية الحلقة التالية.</string>
+    <string name="next_episode_s01e01_default">الموسم1 الحلقة1</string>
+    <string name="all_episodes_watched_message">لقد شاهدت كل شيء!</string>
+    <string name="up_next">التالي</string>
+    <string name="no_seasons_found">لم يتم العثور على مواسم لهذا المسلسل.</string>
+    <string name="show_not_in_database">\"احفظ\" المسلسل في قاعدة البيانات المحلية لاستخدام هذه الميزة</string>
+    <string name="number">%d</string>
+    <string name="no_app_found_to_pick_files">لم يتم العثور على تطبيق لاختيار الملفات.</string>
+    <string name="could_not_read_headers">لا يمكن قراءة العناوين. تحقق من الفاصل أو تأكد من أن CSV ليس فارغاً.</string>
+    <string name="could_not_read_headers_2">لا يمكن قراءة العناوين من CSV. تحقق من الفاصل أو تنسيق الملف.</string>
+    <string name="delimiter_format">يجب أن يكون الفاصل حرفاً واحداً. الافتراضي إلى \',\'</string>
+    <string name="please_select_a_csv_file_first">يرجى اختيار ملف CSV أولاً.</string>
+    <string name="csv_file_imported_successfully">تم استيراد ملف CSV بنجاح</string>
+    <string name="failed_to_import_csv_file">فشل في استيراد ملف CSV</string>
+    <string name="import_csv">استيراد CSV</string>
+    <string name="select_csv_file">اختر ملف CSV</string>
+    <string name="delimiter">الفاصل</string>
+    <string name="import_button">استيراد</string>
+    <string name="csv_import_info">يمكنك استيراد بيانات من ملف CSV. تأكد من أن الملف يحتوي على الأعمدة المطلوبة.</string>
+    <string name="search_title_ext">البحث في Billie Eilish</string>
+    <string name="play_video">تشغيل الفيديو</string>
+    <string name="watch_now">شاهد الآن</string>
+    <string name="play_movie">تشغيل الفيلم</string>
+    <string name="play_episode">تشغيل الحلقة</string>
+    <string name="video_player">مشغل الفيديو</string>
+    <string name="loading_video">جاري تحميل الفيديو...</string>
+    <string name="video_not_available">الفيديو غير متاح</string>
+    <string name="login_with_google">تسجيل الدخول بـ Google</string>
+    <string name="google_login">تسجيل دخول Google</string>
+    <string name="login_required">تسجيل الدخول مطلوب</string>
+    <string name="please_login_to_continue">يرجى تسجيل الدخول للمتابعة</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="guest_user">مستخدم ضيف</string>
+    <string name="not_logged_in">غير مسجل الدخول</string>
+    <string name="skip_login">تخطي</string>
+    <string name="login_success">تم تسجيل الدخول بنجاح!</string>
+    <string name="login_failed">فشل تسجيل الدخول. يرجى المحاولة مرة أخرى.</string>
+    <string name="login_cancelled">تم إلغاء تسجيل الدخول</string>
+    <string name="language_settings">إعدادات اللغة</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">الإنجليزية</string>
+    <string name="spanish">الإسبانية</string>
+    <string name="language_changed">تم تغيير اللغة</string>
+    <string name="restart_app_for_language_change">أعد تشغيل التطبيق لتطبيق تغيير اللغة</string>
+    <string name="sign_in_with_google">تسجيل الدخول بواسطة Google</string>
+    <string name="welcome_to_app">مرحباً بك في %1$s</string>
+    <string name="welcome_message">اكتشف عالم الأفلام والمسلسلات</string>
+    <string name="login_description">سجل دخولك للحصول على تجربة شخصية مخصصة لك</string>
+
+    <string name="login_footer">بتسجيل الدخول، أنت توافق على شروط الاستخدام وسياسة الخصوصية</string>
+    <string name="login_successful">تم تسجيل الدخول بنجاح</string>
+    <string name="action_profile">الملف الشخصي</string>
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="favorites">المفضلة</string>
+    <string name="watchlist">قائمة المشاهدة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="user_profile">ملف المستخدم</string>
+    <string name="statistics">الإحصائيات</string>
+    <string name="movies">الأفلام</string>
+
+</resources>

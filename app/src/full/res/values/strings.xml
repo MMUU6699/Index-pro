@@ -19,7 +19,7 @@
   -->
 
 <resources>
-    <string name="app_name" translatable="false">ShowCase Plus</string>
+    <string name="app_name" translatable="false">Billie Eilish Plus</string>
 
     <!-- BaseActivity -->
     <string name="no_permission_dialog_ok">OK</string>
@@ -237,7 +237,7 @@
     <string name="tv_show">TV Show</string>
     <string name="type">Type</string>
     <string name="just_watch_attribution">This app uses JustWatch data to show \'Where to watch?\' info.</string>
-    <string name="share">Share ShowCase</string>
+    <string name="share">Share Billie Eilish</string>
     <string name="donate">Donate</string>
     <string name="attribution">Attribution</string>
     <string name="about_movie_db">About</string>
@@ -360,6 +360,6 @@
     <string name="runtime">Runtime</string>
     <string name="popularity">Popularity</string>
     <string name="language">Language</string>
-    <string name="search_title_ext">Search in ShowCase Plus</string>
+    <string name="search_title_ext">Search in Billie Eilish Plus</string>
 
 </resources>

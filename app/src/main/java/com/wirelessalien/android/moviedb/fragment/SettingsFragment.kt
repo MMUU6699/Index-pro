@@ -519,6 +519,32 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String?) {
         if (key == SectionsPagerAdapter.HIDE_MOVIES_PREFERENCE || key == SectionsPagerAdapter.HIDE_ACCOUNT_PREFERENCE || key == SectionsPagerAdapter.HIDE_SAVED_PREFERENCE || key == SectionsPagerAdapter.HIDE_SERIES_PREFERENCE) {
             (requireActivity() as SettingsActivity).mTabsPreferenceChanged = true
+        } else if (key == "key_language") {
+            val languageCode = sharedPreferences.getString(key, "en") ?: "en"
+            setAppLanguage(languageCode)
+            Toast.makeText(requireContext(), getString(R.string.language_changed), Toast.LENGTH_SHORT).show()
+            
+            // Restart the app to apply language change
+            val intent = requireActivity().packageManager.getLaunchIntentForPackage(requireActivity().packageName)
+            intent?.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+            intent?.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
+            requireActivity().finish()
         }
+    }
+    
+    private fun setAppLanguage(languageCode: String) {
+        val locale = java.util.Locale(languageCode)
+        java.util.Locale.setDefault(locale)
+        
+        val config = android.content.res.Configuration(requireContext().resources.configuration)
+        config.setLocale(locale)
+        
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            config.setLayoutDirection(locale)
+        }
+        
+        val context = requireContext().createConfigurationContext(config)
+        requireContext().resources.updateConfiguration(config, requireContext().resources.displayMetrics)
     }
 }
