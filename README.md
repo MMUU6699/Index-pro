@@ -130,8 +130,8 @@ The Billie Eilish Movie App can be compiled using Android Studio or via the comm
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/gdytd141-commits/MovieDB.git
-   cd MovieDB
+   git clone https://github.com/MMUU6699/Index-pro.git
+   cd index pro
    ```
 
 2. **Set up API Keys:**
@@ -200,8 +200,8 @@ Contributions are what make the open-source community such an amazing place to l
 
 If you encounter a bug or have a feature request:
 
-1. Check [existing issues](https://github.com/gdytd141-commits/MovieDB/issues) first
-2. If not found, [create a new issue](https://github.com/gdytd141-commits/MovieDB/issues/new)
+1. Check [existing issues](https://github.com/MMUU6699/Index-pro/issues) first
+2. If not found, [create a new issue](https://github.com/MMUU6699/Index-pro/issues/new)
 3. Provide detailed information about the problem or suggestion
 
 ### 🔧 Pull Requests
