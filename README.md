@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/gdytd141-commits/MovieDB">
-    <img src="https://github.com/MMUU6699/Index-pro/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png.jpg" alt="Billie Eilish Logo" width="150" height="150">
+    <img src="https://github.com/MMUU6699/Index-pro/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png.jpg" alt="Billie Eilish Logo" width="200" height="200">
   </a>
   <h1>🎵 Billie Eilish Movie App</h1>
   <p>Discover and stream your favorite movies and TV shows with the ultimate entertainment companion inspired by Billie Eilish.</p>
