@@ -102,8 +102,7 @@ You can download and install the Billie Eilish Movie App from the following sour
 
 | Version | Download | Size | Features |
 |---------|----------|------|----------|
-| **Full Version** | [📥 Download APK](https://github.com/gdytd141-commits/MovieDB/releases/latest/download/Billie-Eilish-Full-Debug.apk) | ~14MB | Complete features with Google Services |
-| **FOSS Version** | [📥 Download APK](https://github.com/gdytd141-commits/MovieDB/releases/latest/download/Billie-Eilish-FOSS-Debug.apk) | ~12MB | Open source version without Google Services |
+| **Full Version** | [📥 Download APK](https://github.com/MMUU6699/Index-pro/releases/download/v1.0.0/Billie-Eilish-Full-Debug.apk) | ~14MB | Complete features with Google Services |
 
 ### 🔧 Installation Instructions
 
